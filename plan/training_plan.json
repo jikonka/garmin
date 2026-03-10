@@ -1,0 +1,627 @@
+[
+  {
+    "week": 1,
+    "phase": "Build 1",
+    "start": "2026-03-10",
+    "end": "2026-03-16",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "间歇跑 5×800m",
+        "date": "2026-03-11",
+        "target_hr": "Z4 151–165 bpm（间歇段）",
+        "target_dist": "约7–8km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术+有氧 W1",
+        "date": "2026-03-12",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.1km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行有氧 70min",
+        "date": "2026-03-13",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约28–32km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池恢复游 W1-Fri",
+        "date": "2026-03-13",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 骑行60min + 跑步25min",
+        "date": "2026-03-15",
+        "target_hr": "骑行Z2–Z3 / 跑步Z3 133–150 bpm",
+        "target_dist": "骑行约25km + 跑步约3.5km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2 65min",
+        "date": "2026-03-16",
+        "target_hr": "Z2 114–132 bpm（后段可到Z3）",
+        "target_dist": "约8–9km"
+      }
+    }
+  },
+  {
+    "week": 2,
+    "phase": "Build 1",
+    "start": "2026-03-17",
+    "end": "2026-03-23",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "节奏跑 45min",
+        "date": "2026-03-18",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约6–7km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术+配速 W2",
+        "date": "2026-03-19",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约1.4km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行阈值间歇 75min",
+        "date": "2026-03-20",
+        "target_hr": "Z4 151–165 bpm（间歇段）",
+        "target_dist": "约32–35km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池恢复游 W2-Fri",
+        "date": "2026-03-20",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 骑行80min + 跑步25min",
+        "date": "2026-03-22",
+        "target_hr": "骑行Z2–Z3 / 跑步Z3–Z4",
+        "target_dist": "骑行约33km + 跑步约3.5km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2–Z3 70min",
+        "date": "2026-03-23",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约9–10km"
+      }
+    }
+  },
+  {
+    "week": 3,
+    "phase": "Build 1",
+    "start": "2026-03-24",
+    "end": "2026-03-30",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "间歇跑 6×800m",
+        "date": "2026-03-25",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "约8–9km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术+阈值 W3",
+        "date": "2026-03-26",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约1.7km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行长程 90min",
+        "date": "2026-03-27",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约38–42km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池恢复游 W3-Fri",
+        "date": "2026-03-27",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约0.9km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 骑行90min + 跑步30min",
+        "date": "2026-03-29",
+        "target_hr": "骑行Z2–Z3 / 跑步Z3–Z4 133–165 bpm",
+        "target_dist": "骑行约38km + 跑步约4.5km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2 75min",
+        "date": "2026-03-30",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约10–11km"
+      }
+    }
+  },
+  {
+    "week": 4,
+    "phase": "Recovery",
+    "start": "2026-03-31",
+    "end": "2026-04-06",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "轻松跑 40min Z2",
+        "date": "2026-04-01",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约5–6km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术恢复 W4",
+        "date": "2026-04-02",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行轻松 55min",
+        "date": "2026-04-03",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约22–25km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池技术游 W4-Fri",
+        "date": "2026-04-03",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约0.8km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "轻量Brick 骑行60min + 跑步15min",
+        "date": "2026-04-05",
+        "target_hr": "Z2 114–132 bpm全程",
+        "target_dist": "骑行约25km + 跑步约2km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "轻松长跑 50min Z2",
+        "date": "2026-04-06",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约6–7km"
+      }
+    }
+  },
+  {
+    "week": 5,
+    "phase": "Build 2",
+    "start": "2026-04-07",
+    "end": "2026-04-13",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "间歇跑 6×1000m",
+        "date": "2026-04-08",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "约9–10km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术+耐力 W5",
+        "date": "2026-04-09",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约1.5km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行阈值 80min",
+        "date": "2026-04-10",
+        "target_hr": "Z3–Z4 133–165 bpm",
+        "target_dist": "约35km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池恢复游 W5-Fri",
+        "date": "2026-04-10",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 骑行90min + 跑步30min",
+        "date": "2026-04-12",
+        "target_hr": "骑行Z2–Z3 / 跑步Z3–Z4",
+        "target_dist": "骑行约38km + 跑步约4.5km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2–Z3 80min",
+        "date": "2026-04-13",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约10–12km"
+      }
+    }
+  },
+  {
+    "week": 6,
+    "phase": "Build 2",
+    "start": "2026-04-14",
+    "end": "2026-04-20",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "节奏跑 55min",
+        "date": "2026-04-15",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约7–8km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术+阈值 W6",
+        "date": "2026-04-16",
+        "target_hr": "Z3–Z4 133–165 bpm",
+        "target_dist": "约1.7km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行长程 100min",
+        "date": "2026-04-17",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约42–48km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池恢复游 W6-Fri",
+        "date": "2026-04-17",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 骑行100min + 跑步35min",
+        "date": "2026-04-19",
+        "target_hr": "骑行Z2–Z3 / 跑步Z3–Z4",
+        "target_dist": "骑行约42km + 跑步约5km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2 80min",
+        "date": "2026-04-20",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约10–11km"
+      }
+    }
+  },
+  {
+    "week": 7,
+    "phase": "Build 2",
+    "start": "2026-04-21",
+    "end": "2026-04-27",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "间歇跑 8×800m",
+        "date": "2026-04-22",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "约10–11km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池速度耐力 W7",
+        "date": "2026-04-23",
+        "target_hr": "Z3–Z4 133–165 bpm",
+        "target_dist": "约2.0km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行阈值 85min",
+        "date": "2026-04-24",
+        "target_hr": "Z4 151–165 bpm（间歇段）",
+        "target_dist": "约38km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池恢复游 W7-Fri",
+        "date": "2026-04-24",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 骑行110min + 跑步35min",
+        "date": "2026-04-26",
+        "target_hr": "骑行Z2–Z3 / 跑步Z3–Z4 133–165 bpm",
+        "target_dist": "骑行约45km + 跑步约5km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2–Z3 85min",
+        "date": "2026-04-27",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约11–12km"
+      }
+    }
+  },
+  {
+    "week": 8,
+    "phase": "Recovery",
+    "start": "2026-04-28",
+    "end": "2026-05-04",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "轻松跑 40min Z2",
+        "date": "2026-04-29",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约5–6km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "泳池技术恢复 W8",
+        "date": "2026-04-30",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行轻松 55min",
+        "date": "2026-05-01",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约22–25km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池激活游 W8-Fri",
+        "date": "2026-05-01",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约0.7km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "轻量Brick 骑行60min + 跑步20min",
+        "date": "2026-05-03",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "骑行约25km + 跑步约3km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "轻松长跑 50min",
+        "date": "2026-05-04",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约6–7km"
+      }
+    }
+  },
+  {
+    "week": 9,
+    "phase": "Peak",
+    "start": "2026-05-05",
+    "end": "2026-05-11",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "比赛配速跑 50min",
+        "date": "2026-05-06",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "约7–8km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "比赛模拟游泳 W9",
+        "date": "2026-05-07",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约1.5km（含750m比赛模拟）"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行比赛模拟 70min",
+        "date": "2026-05-08",
+        "target_hr": "Z4 151–165 bpm（主段）",
+        "target_dist": "约28–30km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池节奏游 W9-Fri",
+        "date": "2026-05-08",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 比赛模拟 骑行40min + 跑步25min",
+        "date": "2026-05-10",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "骑行约18km + 跑步约4km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2–Z3 75min",
+        "date": "2026-05-11",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约9–11km"
+      }
+    }
+  },
+  {
+    "week": 10,
+    "phase": "Peak",
+    "start": "2026-05-12",
+    "end": "2026-05-18",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "间歇跑 5×1000m",
+        "date": "2026-05-13",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "约9–10km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "游泳速度强化 W10",
+        "date": "2026-05-14",
+        "target_hr": "Z3–Z4 133–165 bpm",
+        "target_dist": "约1.6km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行阈值强化 75min",
+        "date": "2026-05-15",
+        "target_hr": "Z4 151–165 bpm",
+        "target_dist": "约32–35km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池节奏游 W10-Fri",
+        "date": "2026-05-15",
+        "target_hr": "Z3 133–150 bpm",
+        "target_dist": "约1.0km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "Brick 全距离模拟 骑行50min + 跑步20min",
+        "date": "2026-05-17",
+        "target_hr": "骑行Z4 / 跑步Z4",
+        "target_dist": "骑行约22km + 跑步约4km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "长跑 Z2 65min",
+        "date": "2026-05-18",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约8–9km"
+      }
+    }
+  },
+  {
+    "week": 11,
+    "phase": "Taper",
+    "start": "2026-05-19",
+    "end": "2026-05-25",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "减量跑 35min 含比赛配速",
+        "date": "2026-05-20",
+        "target_hr": "Z4部分 151–165 bpm，其余Z2",
+        "target_dist": "约5–6km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "减量游泳 W11",
+        "date": "2026-05-21",
+        "target_hr": "Z2–Z3 114–150 bpm",
+        "target_dist": "约0.9km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "骑行激活 45min",
+        "date": "2026-05-22",
+        "target_hr": "Z4 激活段 / 其余Z2",
+        "target_dist": "约18–20km"
+      },
+      "Fri": {
+        "type": "swim",
+        "name": "泳池减量游 W11-Fri",
+        "date": "2026-05-22",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约0.5km"
+      },
+      "Sat": {
+        "type": "brick",
+        "name": "最后Brick 骑行30min + 跑步15min",
+        "date": "2026-05-23",
+        "target_hr": "比赛配速段Z4，其余Z2–Z3",
+        "target_dist": "骑行约12km + 跑步约2km"
+      },
+      "Sun": {
+        "type": "run",
+        "name": "赛前最后跑 25min",
+        "date": "2026-05-24",
+        "target_hr": "Z2 114–132 bpm",
+        "target_dist": "约3km"
+      }
+    }
+  },
+  {
+    "week": 12,
+    "phase": "Race Week",
+    "start": "2026-05-26",
+    "end": "2026-05-30",
+    "days": {
+      "Mon": {
+        "type": "rest"
+      },
+      "Tue": {
+        "type": "run",
+        "name": "赛前激活跑 20min",
+        "date": "2026-05-27",
+        "target_hr": "Z2–Z3，短暂Z4",
+        "target_dist": "约2.5km"
+      },
+      "Wed": {
+        "type": "swim",
+        "name": "赛前激活游泳 W12",
+        "date": "2026-05-28",
+        "target_hr": "Z2–Z3",
+        "target_dist": "约0.6km"
+      },
+      "Thu": {
+        "type": "bike",
+        "name": "赛前骑行检查 20min",
+        "date": "2026-05-29",
+        "target_hr": "Z2，短暂Z4",
+        "target_dist": "约7–8km"
+      },
+      "Fri": {
+        "type": "rest"
+      },
+      "Sat": {
+        "type": "race",
+        "name": "🏆 比赛日！Sprint Triathlon",
+        "date": "2026-05-30",
+        "target_hr": "全力比赛，服从身体感觉",
+        "target_dist": "750m + 20km + 5km"
+      }
+    }
+  }
+]
