@@ -41,7 +41,7 @@ On a Mac:
 npm run dist:mac
 ```
 
-Installers are written to `dist/`. The GitHub Actions workflow also builds Apple Silicon and Intel packages and publishes them as a workflow artifact.
+The Apple Silicon installer is written to `dist/`. The GitHub Actions workflow publishes the M-series Mac DMG as a single uncompressed artifact for faster downloading.
 
 The development build is unsigned. On first launch, macOS may require Control-clicking TriPlan, choosing **Open**, and confirming. Apple signing and notarization can be added before wider distribution.
 
