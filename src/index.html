@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
+    <title>TriPlan</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">T</div>
+          <div><strong>TriPlan</strong><span>Adaptive triathlon training</span></div>
+        </div>
+        <nav aria-label="Primary">
+          <button class="nav-item active" data-page="today"><span>⌂</span> Today</button>
+          <button class="nav-item" data-page="calendar"><span>□</span> Calendar</button>
+          <button class="nav-item" data-page="activities"><span>↗</span> Activities</button>
+          <button class="nav-item" data-page="progress"><span>⌁</span> Progress</button>
+          <button class="nav-item" data-page="profile"><span>○</span> Profile</button>
+        </nav>
+        <div class="sidebar-bottom">
+          <button class="nav-item" data-page="settings"><span>⚙</span> Settings</button>
+          <div class="local-badge"><i></i><span>Local & private</span></div>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="page-eyebrow">TRAINING OVERVIEW</p>
+            <h1 id="page-title">Today</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="button secondary" id="import-button">Import FIT files</button>
+            <button class="avatar" data-page="profile" aria-label="Open profile">T</button>
+          </div>
+        </header>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+        <section id="page-content" class="page-content"></section>
+      </main>
+    </div>
+
+    <dialog id="onboarding-dialog" class="modal">
+      <form id="onboarding-form" method="dialog">
+        <div class="modal-heading">
+          <p class="eyebrow">WELCOME TO TRIPLAN</p>
+          <h2>Build your adaptive plan</h2>
+          <p>Start with the essentials. You can update every detail later.</p>
+        </div>
+        <div class="form-grid">
+          <label class="field full"><span>Name</span><input name="name" autocomplete="name" placeholder="Your name" required /></label>
+          <label class="field"><span>Birth date</span><input name="birthDate" type="date" required /></label>
+          <label class="field"><span>Training days per week</span>
+            <select name="trainingDays"><option value="4">4 days</option><option value="5" selected>5 days</option><option value="6">6 days</option></select>
+          </label>
+          <label class="field full"><span>Race name</span><input name="raceName" value="Olympic triathlon" required /></label>
+          <label class="field"><span>Race date</span><input name="raceDate" type="date" required /></label>
+          <label class="field"><span>Target finish time (optional)</span><input name="targetTime" type="time" min="01:00" max="10:00" /></label>
+          <label class="field full"><span>Health constraints or injuries (optional)</span><textarea name="healthNotes" rows="3" placeholder="Information the plan should respect"></textarea></label>
+        </div>
+        <div class="safety-note"><strong>Training guidance, not medical advice.</strong> Stop exercising and seek qualified care for concerning symptoms or pain.</div>
+        <div class="modal-actions">
+          <button type="submit" class="button primary">Create my plan</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="checkin-dialog" class="modal small">
+      <form id="checkin-form" method="dialog">
+        <div class="modal-heading">
+          <p class="eyebrow">DAILY CHECK-IN</p>
+          <h2>How are you feeling?</h2>
+          <p>One is low; five is excellent, except soreness where five is very sore.</p>
+        </div>
+        <div class="score-row" data-score="energy"><span>Energy</span><div></div></div>
+        <div class="score-row" data-score="soreness"><span>Soreness</span><div></div></div>
+        <div class="score-row" data-score="sleep"><span>Sleep quality</span><div></div></div>
+        <label class="field"><span>Time available today</span><select name="availableMinutes"><option value="30">30 minutes</option><option value="45">45 minutes</option><option value="60" selected>60 minutes</option><option value="90">90+ minutes</option></select></label>
+        <div class="modal-actions split">
+          <button type="button" class="button secondary" data-close-dialog>Cancel</button>
+          <button type="submit" class="button primary">Save check-in</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="travel-dialog" class="modal small">
+      <form id="travel-form" method="dialog">
+        <div class="modal-heading"><p class="eyebrow">AVAILABILITY</p><h2>Add a busy or travel period</h2></div>
+        <div class="form-grid">
+          <label class="field"><span>From</span><input type="date" name="startDate" required /></label>
+          <label class="field"><span>To</span><input type="date" name="endDate" required /></label>
+          <label class="field full"><span>Daily time limit</span><select name="minutes"><option value="0">Unavailable</option><option value="30">30 minutes</option><option value="45">45 minutes</option><option value="60">60 minutes</option></select></label>
+          <label class="field full"><span>Equipment</span><input name="equipment" placeholder="Running shoes, hotel gym, pool…" /></label>
+        </div>
+        <div class="modal-actions split">
+          <button type="button" class="button secondary" data-close-dialog>Cancel</button>
+          <button type="submit" class="button primary">Save availability</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>
