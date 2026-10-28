@@ -1,0 +1,63 @@
+{
+  "name": "triplan",
+  "version": "0.1.0",
+  "description": "Private, adaptive triathlon training planner for macOS",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test",
+    "check": "node --check src/main.js && node --check src/engine.js && node --check src/renderer.js",
+    "dist:mac": "electron-builder --mac dmg zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jikonka/garmin.git"
+  },
+  "keywords": [
+    "triathlon",
+    "garmin",
+    "training"
+  ],
+  "author": "TriPlan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jikonka/garmin/issues"
+  },
+  "homepage": "https://github.com/jikonka/garmin#readme",
+  "build": {
+    "appId": "com.triplan.desktop",
+    "productName": "TriPlan",
+    "asar": true,
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.healthcare-fitness",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "@garmin/fitsdk": "^21.218.0"
+  },
+  "devDependencies": {
+    "electron": "^45.1.0",
+    "electron-builder": "^26.18.0"
+  }
+}
